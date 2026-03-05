@@ -1933,9 +1933,10 @@ section.urgency-bar p {
 .offer-section__checklist li {
   padding: 0.5rem 0;
   font-size: 0.95rem;
-  display: flex;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: 22px 1fr;
   gap: 0.6rem;
+  align-items: start;
   color: var(--navy);
   line-height: 1.4;
 }
