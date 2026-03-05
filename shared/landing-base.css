@@ -356,9 +356,15 @@ p {
 }
 
 .btn--large {
-  padding: 1.1rem 2.75rem;
-  font-size: 1.1rem;
+  padding: 0.85rem 2rem;
+  font-size: 1rem;
   max-width: 320px;
+}
+@media (min-width: 768px) {
+  .btn--large {
+    padding: 1.1rem 2.75rem;
+    font-size: 1.1rem;
+  }
 }
 
 .btn--full {
@@ -1758,9 +1764,15 @@ section.urgency-bar p {
 
 /* ----- Button lg alias ----- */
 .btn--lg {
-  padding: 1.1rem 2.75rem;
-  font-size: 1.1rem;
+  padding: 0.85rem 2rem;
+  font-size: 1rem;
   max-width: 320px;
+}
+@media (min-width: 768px) {
+  .btn--lg {
+    padding: 1.1rem 2.75rem;
+    font-size: 1.1rem;
+  }
 }
 
 /* ===== RESPONSIVE — compatibility classes ===== */
