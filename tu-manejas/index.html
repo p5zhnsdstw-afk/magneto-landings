@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="icon" type="image/png" href="../shared/favicon.png">
+ <meta name="landing-id" content="tu-manejas">
+ <!-- Open Graph -->
+ <meta property="og:type" content="website">
+ <meta property="og:title" content="GPS Para Vehículos Compartidos | Tracklink">
+ <meta property="og:description" content="Sabe dónde está tu vehículo cuando otro lo maneja. GPS oculto con alertas de zona, velocidad y uso no autorizado.">
+ <meta property="og:url" content="https://tracklink.ec/magneto/tu-manejas/">
+ <meta property="og:image" content="https://tracklink.ec/magneto/shared/og-image.jpg">
+ <meta property="og:locale" content="es_EC">
+ <title>Sabe Qué Hace Tu Chofer Con Tu Carro | Tracklink Ecuador</title>
+ <meta name="description" content="¿Alguien más maneja tu vehículo? Monitorea rutas, velocidad y paradas en tiempo real. Instalación gratis.">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="../shared/landing-base.css">
+
+ <!-- Meta Pixel -->
+ <script>
+ !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+ n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+ n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+ t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+ document,'script','https://connect.facebook.net/en_US/fbevents.js');
+ fbq('init', '302317904357081');
+ fbq('track', 'PageView');
+ </script>
+ <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=302317904357081&ev=PageView&noscript=1"/></noscript>
+
+ <!-- GA4 -->
+ <script async src="https://www.googletagmanager.com/gtag/js?id=G-NC45CQFT0C"></script>
+ <script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
+ gtag('config', 'G-NC45CQFT0C');
+ </script>
+ <!-- Google Tag Manager -->
+ <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+ new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+ 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+ })(window,document,'script','dataLayer','GTM-KN9HMBZ');</script>
+ <!-- End Google Tag Manager -->
+ <script src="https://api.patagon.ai/api/v1/tracking.js"></script>
+ <style>
+ .testimonial::before { display: none !important; }
+ </style>
+</head>
+<body>
+
+ <!-- 1. Sticky Nav — Cyan -->
+ <nav class="nav-sticky nav-sticky--cyan">
+ <div class="nav-sticky__inner">
+ <a href="#hero" class="nav-sticky__logo">
+ <img src="../shared/logo-header.png" alt="Tracklink" style="height:28px;width:auto">
+ </a>
+ <div class="nav-sticky__links">
+ <a href="#solucion">Protección</a>
+ <a href="#como-funciona">Cómo Funciona</a>
+ <a href="#testimonios">Testimonios</a>
+ <a href="#preguntas">Preguntas</a>
+ </div>
+ <a href="https://wa.me/593989746075?text=Hola%2C%20quiero%20control%20GPS%20para%20mi%20vehículo" class="btn nav-sticky__cta">Quiero control <svg class="btn--wa-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" fill="#25D366"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.832-1.438A9.955 9.955 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18a8 8 0 01-4.29-1.24l-.307-.184-2.87.853.853-2.87-.184-.307A8 8 0 1112 20z" fill="#25D366"/></svg></a>
+ </div>
+ </nav>
+
+ <!-- 2. Hero — text aligned left -->
+ <section class="hero hero--overlay-dark hero--align-left" style="background-image:url(hero.jpg);" id="hero">
+ <div class="hero__content">
+ <p style="font-size:0.85rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--cyan);margin-bottom:0.75rem">Para dueños que no siempre están al volante</p>
+ <h1 style="color:#fff;text-shadow:0 2px 12px rgba(0,0,0,0.5);margin-bottom:1rem">¿Sabes Qué Hace Tu Chofer<br>Con Tu Carro?</h1>
+ <p class="hero__sub" style="color:rgba(255,255,255,0.9);text-shadow:0 1px 6px rgba(0,0,0,0.4)">El dilema de que otro use tu carro:</p>
+ <ul class="hero__bullets">
+ <li>¿Realmente está donde dijo?</li>
+ <li>¿Está manejando bien?</li>
+ <li>¿Realizó la ruta acordada?</li>
+ </ul>
+ <a href="https://wa.me/593989746075?text=Hola%2C%20quiero%20control%20GPS%20para%20mi%20vehículo" class="btn btn--primary btn--large">Quiero control <svg style="width:20px;height:20px;vertical-align:middle" viewBox="0 0 24 24" fill="none"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" fill="#fff"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.832-1.438A9.955 9.955 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18a8 8 0 01-4.29-1.24l-.307-.184-2.87.853.853-2.87-.184-.307A8 8 0 1112 20z" fill="#fff"/></svg></a>
+ <div class="hero-stats">
+ <div class="hero-stats__item">
+ <span class="hero-stats__number">+90%</span>
+ <span class="hero-stats__label">Recuperación</span>
+ </div>
+ <div class="hero-stats__item">
+ <span class="hero-stats__number">28</span>
+ <span class="hero-stats__label">Años protegiendo</span>
+ </div>
+ <div class="hero-stats__item">
+ <span class="hero-stats__number">170K+</span>
+ <span class="hero-stats__label">Vehículos protegidos</span>
+ </div>
+ <div class="hero-stats__item">
+ <span class="hero-stats__number">6</span>
+ <span class="hero-stats__label">Países</span>
+ </div>
+ </div>
+ </div>
+ </section>
+
+ <!-- 3. Problem (PAS) -->
+ <section class="section" id="problema">
+ <div class="container">
+ <h2 class="section__title text-center">Cuando Tú No Estás Al Volante, el Riesgo Es Real</h2>
+ <p class="section__subtitle text-center">No es desconfianza. Es falta de control, y eso tiene consecuencias.</p>
+ <div class="problem-cards">
+ <div class="problem-card problem-card--v2">
+ <div class="problem-card__icon"><img src="../shared/icons/ICONOS_09.png" alt="Desvíos" width="48" height="48"></div>
+ <h4>Desvíos personales sin avisar</h4>
+ <p>El chofer hace paradas para asuntos propios usando tu combustible y tu tiempo. Tú nunca te enteras.</p>
+ </div>
+ <div class="problem-card problem-card--v2">
+ <div class="problem-card__icon"><img src="../shared/icons/ICONOS_05.png" alt="Velocidad" width="48" height="48"></div>
+ <h4>Velocidad excesiva y mal manejo</h4>
+ <p>Sin supervisión, algunos conductores aceleran de más o manejan de forma que desgasta y pone en riesgo tu inversión.</p>
+ </div>
+ <div class="problem-card problem-card--v2">
+ <div class="problem-card__icon"><img src="../shared/icons/ICONOS_33.png" alt="Robo" width="48" height="48"></div>
+ <h4>Robo con cómplice interno</h4>
+ <p>En Ecuador, una parte de los robos vehiculares ocurren con información de alguien que conoce la rutina del carro. Si te lo roban, tú lo descubres horas después.</p>
+ </div>
+ <div class="problem-card problem-card--v2">
+ <div class="problem-card__icon"><img src="../shared/icons/ICONOS_19.png" alt="Sin control" width="48" height="48"></div>
+ <h4>Sin comunicación, sin control</h4>
+ <p>Llamas, no contestan. Mandas WhatsApp, "ya llegué" — pero no sabes si es verdad. Tu carro está en algún lugar y tú no tienes manera de verificarlo.</p>
+ </div>
+ </div>
+ </div>
+ </section>
+
+ <!-- 4. Solution — 6 feature cards v2 -->
+ <section class="section section--light" id="solucion">
+ <div class="container">
+ <h2 class="section__title text-center">Somos tus ojos cuando no puedes estar ahí</h2>
+ <p class="section__subtitle text-center">No es solo un GPS, es el control de tu vehículo, incluso cuando alguien más lo conduce.</p>
+ <div class="features--v2">
+ <div class="feature-v2">
+ <div class="feature-v2__icon"><img src="../shared/icons/ICONOS_27.png" alt="Recuperación" width="40" height="40"></div>
+ <h4>Equipo de recuperación 24/7</h4>
+ <p>No estás solo. Equipo experto coordinando en tiempo real con autoridades. Más del 90% de vehículos robados con Tracklink son recuperados.</p>
+ </div>
+ <div class="feature-v2">
+ <div class="feature-v2__icon"><img src="../shared/icons/ICONOS_07.png" alt="GPS oculto" width="40" height="40"></div>
+ <h4>GPS oculto</h4>
+ <p>Instalado donde nadie lo encuentra. Si roban tu carro, lo rastreamos sin que el ladrón lo sepa.</p>
+ </div>
+ <div class="feature-v2">
+ <div class="feature-v2__icon"><img src="../shared/icons/ICONOS_03.png" alt="Protección" width="40" height="40"></div>
+ <h4>Tu complemento de protección</h4>
+ <p>Monitoreo en tiempo real y coordinación directa con la Policía. La reacción inmediata hace la diferencia cuando más importa.</p>
+ </div>
+ <div class="feature-v2">
+ <div class="feature-v2__icon"><img src="../shared/icons/ICONOS_32.png" alt="Alertas" width="40" height="40"></div>
+ <h4>Información al instante a un solo clic</h4>
+ <p>Tu vehículo en la palma de tu mano. Alertas, recorridos y reportes desde la app, estés donde estés.</p>
+ </div>
+ <div class="feature-v2">
+ <div class="feature-v2__icon"><img src="../shared/icons/ICONOS_25.png" alt="Expertos" width="40" height="40"></div>
+ <h4>Confía en los Expertos</h4>
+ <p>Nos encargamos de todo por ti. Instalación profesional, rápida y sin costos ocultos. Sales protegido desde el primer momento.</p>
+ </div>
+ <div class="feature-v2">
+ <div class="feature-v2__icon"><img src="../shared/icons/ICONOS_17.png" alt="Garantía" width="40" height="40"></div>
+ <h4>Garantía ilimitada</h4>
+ <p>Respaldamos nuestra tecnología sin límites. Confianza total desde el primer momento.</p>
+ </div>
+ </div>
+ </div>
+ </section>
+
+ <!-- 5. How It Works -->
+ <section class="section" id="como-funciona">
+ <div class="container">
+ <h2 class="section__title text-center">Tu carro protegido en 3 pasos</h2>
+ <div class="steps">
+ <div class="step">
+ <div class="step__number">1</div>
+ <h4>Contáctanos por WhatsApp</h4>
+ <p>Un asesor se pondrá en contacto contigo lo antes posible.</p>
+ </div>
+ <div class="step">
+ <div class="step__number">2</div>
+ <h4>Instalación inmediata</h4>
+ <p>Agenda tu cita, un técnico certificado instala el GPS oculto, nosotros vamos a ti, en el lugar de tu preferencia.</p>
+ </div>
+ <div class="step">
+ <div class="step__number">3</div>
+ <h4>Controla tu vehículo</h4>
+ <p>Desde el primer kilómetro tienes GPS activo, una app en tu celular y un equipo disponible 24/7.</p>
+ </div>
+ </div>
+ </div>
+ </section>
+
+ <!-- 6. Offer Section (NEW) -->
+ <section class="section section--light" id="oferta-gratis">
+ <div class="container">
+ <div class="offer-section">
+ <div class="offer-section__image">
+ <img src="offer-app.png" alt="App Tracklink en celular">
+ </div>
+ <div class="offer-section__content">
+ <h3>Instala <span class="text-cyan">GRATIS</span> y llévate $40 equivalentes a <strong>1 MES ADICIONAL</strong> de servicio</h3>
+ <ul class="offer-section__checklist">
+ <li>Instalación <strong>GRATIS</strong></li>
+ <li><strong>+1 MES ADICIONAL</strong> de servicio valorado en $40</li>
+ <li><strong>+90%</strong> efectividad en recuperación</li>
+ <li>Si no recuperamos, te devolvemos tu dinero*</li>
+ </ul>
+ <a href="https://wa.me/593989746075?text=Hola%2C%20quiero%20control%20GPS%20para%20mi%20vehículo" class="btn btn--primary btn--large">Quiero control <svg style="width:20px;height:20px;vertical-align:middle" viewBox="0 0 24 24" fill="none"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" fill="#fff"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.832-1.438A9.955 9.955 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18a8 8 0 01-4.29-1.24l-.307-.184-2.87.853.853-2.87-.184-.307A8 8 0 1112 20z" fill="#fff"/></svg></a>
+ <p class="offer-section__disclaimer">*Se compensará económicamente por los meses no gozados del servicio</p>
+ </div>
+ </div>
+ </div>
+ </section>
+
+ <!-- 7. Value Stack — Benefits list -->
+ <section class="section" id="beneficios">
+ <div class="container">
+ <h2 class="section__title text-center">Lo que obtengo con mi plan</h2>
+ <div class="value-stack">
+ <div class="value-stack__header">
+ <h3>Qué beneficios tiene tu plan</h3>
+ </div>
+ <div class="value-stack__body">
+ <ul class="value-stack__benefits">
+ <li>Ubícalo cuando lo necesites, estés donde estés con ubicación de vehículo.</li>
+ <li>Podrás revisar la ruta de inicio a fin con seguimiento de viaje.</li>
+ <li>Comparte tu ubicación en tiempo real y mantén el control de tu trayecto con link de seguimiento.</li>
+ <li>Activa tu red de apoyo al instante con el botón de alerta.</li>
+ <li>Define tus zonas seguras y recibe notificaciones de entrada o salida con las cercas virtuales.</li>
+ <li>Abre tu vehículo desde tu celular, sin depender de las llaves con apertura de seguros.</li>
+ <li>Ten el control total, sabe cuándo, dónde y a qué hora se enciende o apaga tu vehículo con la alerta de encendido y apagado.</li>
+ </ul>
+ </div>
+ <div class="value-stack__cta">
+ <a href="https://wa.me/593989746075?text=Hola%2C%20quiero%20control%20GPS%20para%20mi%20vehículo" class="btn btn--primary btn--lg btn--full">Quiero control <svg style="width:20px;height:20px;vertical-align:middle" viewBox="0 0 24 24" fill="none"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" fill="#fff"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.832-1.438A9.955 9.955 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18a8 8 0 01-4.29-1.24l-.307-.184-2.87.853.853-2.87-.184-.307A8 8 0 1112 20z" fill="#fff"/></svg></a>
+ </div>
+ </div>
+ </div>
+ </section>
+
+ <!-- 8. Testimonials -->
+ <section class="section section--light" id="testimonios">
+ <div class="container">
+ <h2 class="section__title section__title--cyan text-center">Lo que se siente estar realmente protegido</h2>
+ <div class="testimonials">
+ <div class="testimonial testimonial--v2">
+ <div class="testimonial__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+ <p class="testimonial__text">"Tengo un camión Hino para transporte. Con Tracklink puedo ver las rutas de mi chofer y saber si hace paradas no autorizadas. Una vez intentaron robarlo en Durán y lo recuperamos en 4 horas."</p>
+ <p class="testimonial__author">Jorge G.</p>
+ <p class="testimonial__meta">Transportista, Guayaquil</p>
+ </div>
+ <div class="testimonial testimonial--v2">
+ <div class="testimonial__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+ <p class="testimonial__text">"Gracias a Tracklink pude recuperar mi camioneta. Me la robaron en la puerta de la casa y la encontraron al día siguiente en otro cantón. Sin el GPS, nunca la habría visto otra vez."</p>
+ <p class="testimonial__author">Alfonso P.</p>
+ <p class="testimonial__meta">Cliente Tracklink, Guayaquil</p>
+ </div>
+ </div>
+ <p class="testimonials__closing">Ellos ya decidieron estar protegidos ¿y tú?</p>
+ </div>
+ </section>
+
+ <!-- 9. Guarantee v2 -->
+ <section class="section" id="garantia">
+ <div class="container">
+ <div class="guarantee-v2">
+ <div class="guarantee-v2__image">
+ <img src="guarantee.jpg" alt="Robo vehicular">
+ </div>
+ <div class="guarantee-v2__content">
+ <h3>Garantía de recuperación</h3>
+ <p>Más del 90% de efectividad en recuperación, si no recuperamos tu vehículo te devolvemos tu dinero. Así de seguro estamos, llevamos más de 28 años demostrándolo.</p>
+ </div>
+ </div>
+ </div>
+ </section>
+
+ <!-- 10. FAQ -->
+ <section class="section section--light" id="preguntas">
+ <div class="container">
+ <h2 class="section__title text-center">Preguntas Frecuentes</h2>
+ <div class="faq">
+ <details class="faq-item">
+ <summary>¿Mi chofer va a saber que tiene un GPS?</summary>
+ <p>La instalación es completamente oculta. El dispositivo se coloca en un lugar no visible del vehículo. Tu conductor no sabrá que está siendo monitoreado — a menos que tú se lo digas.</p>
+ </details>
+ <details class="faq-item">
+ <summary>¿Qué tipo de alertas puedo configurar?</summary>
+ <p>Puedes configurar alertas por velocidad excesiva, salida de zona autorizada (geocercas), encendido fuera de horario, paradas prolongadas y movimiento en horarios no permitidos. Todo desde la app.</p>
+ </details>
+ <details class="faq-item">
+ <summary>¿Con qué frecuencia se actualiza la ubicación?</summary>
+ <p>En tiempo real. El dispositivo reporta la posición cada pocos segundos mientras el vehículo está en movimiento, para que siempre tengas información actualizada.</p>
+ </details>
+ <details class="faq-item">
+ <summary>¿Puedo ver el historial de rutas de días anteriores?</summary>
+ <p>Sí. Puedes revisar el historial completo de recorridos: a dónde fue, a qué hora salió, cuánto tiempo estuvo en cada parada. Todo queda registrado.</p>
+ </details>
+ <details class="faq-item">
+ <summary>¿Qué pasa si me roban el vehículo?</summary>
+ <p>Nos llamas inmediatamente. Activamos el rastreo intensivo y coordinamos directamente con las autoridades para la recuperación. Nuestra tasa de recuperación es del +90%. También puedes bloquear el motor de forma remota desde la app.</p>
+ </details>
+ </div>
+ </div>
+ </section>
+
+ <!-- 11. Urgency CTA -->
+ <section class="section urgency-bar" id="urgencia">
+ <div class="container" style="text-align:center">
+ <h2 class="text-white">¿Cuánto Vale Saber Que Tu Carro Está Donde Dijo?</h2>
+ <p style="color:rgba(255,255,255,0.9);margin:0.75rem 0 1.5rem">Cada día sin GPS es un día sin información. Un desvío, una parada no autorizada, un robo — y tú te enteras último.</p>
+ <a href="https://wa.me/593989746075?text=Hola%2C%20quiero%20control%20GPS%20para%20mi%20vehículo" class="btn btn--wa btn--large">Quiero control <svg style="width:20px;height:20px;vertical-align:middle" viewBox="0 0 24 24" fill="none"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" fill="#00bcff"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.832-1.438A9.955 9.955 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18a8 8 0 01-4.29-1.24l-.307-.184-2.87.853.853-2.87-.184-.307A8 8 0 1112 20z" fill="#00bcff"/></svg></a>
+ </div>
+ </section>
+
+ <!-- 12. Sticky Mobile CTA -->
+ <div class="sticky-cta">
+ <a href="https://wa.me/593989746075?text=Hola%2C%20quiero%20control%20GPS%20para%20mi%20vehículo" class="btn btn--primary btn--full">Quiero control <svg style="width:18px;height:18px;vertical-align:middle" viewBox="0 0 24 24" fill="none"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" fill="#fff"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.832-1.438A9.955 9.955 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18a8 8 0 01-4.29-1.24l-.307-.184-2.87.853.853-2.87-.184-.307A8 8 0 1112 20z" fill="#fff"/></svg></a>
+ </div>
+
+ <!-- 13. Footer -->
+ <footer class="landing-footer">
+ <a href="#hero"><img src="../shared/logo-footer.png" alt="Tracklink" class="footer__logo" style="height:36px;filter:none;opacity:1"></a>
+ <p>&copy; 2026 Tracklink Ecuador. Todos los derechos reservados.</p>
+ <p>Protección GPS vehicular en Ecuador, Chile, Perú, Costa Rica, Nicaragua, Honduras.</p>
+ </footer>
+
+ <script src="../shared/tracking.js"></script>
+ <script src="../shared/whatsapp-enhancer.js"></script>
+</body>
+</html>
