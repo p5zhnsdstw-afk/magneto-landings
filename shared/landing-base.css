@@ -369,6 +369,8 @@ p {
 
 .btn--full {
   width: 100%;
+  max-width: none;
+  white-space: nowrap;
 }
 
 .btn--outline {
