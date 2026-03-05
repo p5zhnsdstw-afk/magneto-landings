@@ -358,6 +358,7 @@ p {
 .btn--large {
   padding: 1.1rem 2.75rem;
   font-size: 1.1rem;
+  max-width: 320px;
 }
 
 .btn--full {
@@ -1759,6 +1760,7 @@ section.urgency-bar p {
 .btn--lg {
   padding: 1.1rem 2.75rem;
   font-size: 1.1rem;
+  max-width: 320px;
 }
 
 /* ===== RESPONSIVE — compatibility classes ===== */
